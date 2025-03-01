@@ -1,63 +1,72 @@
-
+```md
 ⏱️ Stopwatch App (Python & Tkinter)
 
-A simple yet powerful stopwatch built using Python and Tkinter. This application allows users to start, stop, reset, and record lap times. Additionally, users can export lap data to a CSV file for further analysis.
+A simple yet powerful stopwatch built using Python and Tkinter. This application allows users to start, stop, reset, record lap times, and export lap data to a CSV file for further analysis.
 
 🚀 Features
 
-✅ Start, Stop, Reset functionality
-✅ Lap timing and display with multiple lap recordings
-✅ Export lap times to CSV for easy tracking
-✅ User-friendly GUI built with Tkinter
-✅ Minimalist and responsive design for better UX
+✅ Start, Stop, Reset functionality  
+✅ Lap timing and display with multiple laps  
+✅ User-friendly GUI built with Tkinter  
+✅ Minimalist and responsive design  
+✅ Export lap times to a CSV file  
 
 📥 Installation & Usage
 
-1️⃣ Clone the Repository
-sh
-Copy code
+1️⃣ Clone the Repository  
+```sh
 git clone https://github.com/kabilesh-c/Stopwatch-Project.git
 cd Stopwatch-Project
-2️⃣ Create a Virtual Environment (Recommended)
-sh
-Copy code
-python -m venv venv
+```
+
+ 2️⃣ Create a Virtual Environment (Recommended)  
 For Windows:
-
-sh
-Copy code
+```sh
+python -m venv venv
 venv\Scripts\activate
+```
 For macOS/Linux:
-
-sh
-Copy code
+```sh
+python3 -m venv venv
 source venv/bin/activate
-3️⃣ Install Dependencies
-sh
-Copy code
+```
+
+3️⃣ Install Dependencies  
+```sh
 pip install -r requirements.txt
-4️⃣ Run the Application
-sh
-Copy code
+```
+
+4️⃣ Run the Application  
+```sh
 python src/stopwatch.py
-📸 Screenshots
-![Dark_Mode](https://github.com/user-attachments/assets/9a33a0ea-8779-4c78-b3d6-470b73ef519b)
+```
 
+---
+🖼️ Screenshots  
 
-🛠️ Technologies Used
+🔵 Dark Mode  
+![Dark Mode](Dark_Mode.png)  
 
-Python (Core Logic)
-Tkinter (GUI Framework)
-CSV Module (Lap Data Export)
-ttkbootstrap (Enhanced UI)
-📝 Future Enhancements
+🟢 Lap Stop  
+![Lap Stop](Lap_Stop.png)  
 
-🔹 Add dark mode for better visibility
-🔹 Improve UI with better fonts and animations
-🔹 Allow custom time formats (HH:MM:SS or MM:SS.ms)
-🔹 Save session history for reviewing past lap times
+⚪ Light Mode  
+![Light Mode](light_mode.png)  
 
-🤝 Contributing
+---
 
-Feel free to fork the repo, submit issues, and create pull requests! Contributions are welcome.
+🛠️ Technologies Used  
+- Python - Core functionality  
+- Tkinter - GUI framework  
+- CSV Module - Exporting lap data  
 
+📜 License  
+This project is open-source and available under the MIT License.
+
+---
+
+🙌 Contributing  
+If you would like to contribute, feel free to fork the repository and submit a pull request.
+
+Happy Coding! 🚀  
+```
