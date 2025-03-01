@@ -1,4 +1,4 @@
-```md
+
 ⏱️ Stopwatch App (Python & Tkinter)
 
 A simple yet powerful stopwatch built using Python and Tkinter. This application allows users to start, stop, reset, record lap times, and export lap data to a CSV file for further analysis.
@@ -69,4 +69,4 @@ This project is open-source and available under the MIT License.
 If you would like to contribute, feel free to fork the repository and submit a pull request.
 
 Happy Coding! 🚀  
-```
+
